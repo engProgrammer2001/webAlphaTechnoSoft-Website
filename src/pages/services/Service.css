@@ -1,0 +1,226 @@
+
+.main-sec{
+    background-image: url('../../assets/Services-images/DegitamMarketing.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.main-sec h1{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 60px;
+}
+.main-sec a{
+    position: absolute;
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    top: 200px;
+    left: 100px;
+    text-decoration: none;
+
+}
+.paraGraph button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+.paraGraph h4{
+    color: #3b3663;
+    font-size: 26px;
+    font-weight: 500;
+}
+.paraGraph button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3b3663;
+}
+.content h1{
+    margin: 50px 0px;
+    color: #3b3663;
+    font-weight: 600;
+    text-align: center;
+}
+.paraGraph p{
+    font-size: 20px;
+    color: #787878;
+    font-weight: 500;
+}
+
+
+/* web development page part start  */
+
+.webDevelopment-main-sec{
+    background-image: url('../../assets/Services-images/web-design-img1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.webDevelopment-main-sec h1{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 60px;
+}
+.webDevelopment-main-sec a{
+    position: absolute;
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    top: 200px;
+    left: 100px;
+    text-decoration: none;
+}
+ 
+/* web design part */
+.webDesign-main-sec{
+    background-image: url('../../assets/Services-images/web-design-img2.gif');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.webDesign-main-sec h1{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 60px;
+}
+.webDesign-main-sec a{
+    position: absolute;
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    top: 200px;
+    left: 100px;
+    text-decoration: none;
+}
+
+/* graphic desing section  */
+.graphicDesing-main-sec{
+    background-image: url('../../assets/Services-images/graphic-desing-img.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.graphicDesing-main-sec h1{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 60px;
+}
+.graphicDesing-main-sec a{
+    position: absolute;
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    top: 200px;
+    left: 100px;
+    text-decoration: none;
+}
+.gd-content h1{
+    margin: 50px 0px;
+    color: #3b3663;
+    font-weight: 600;
+    text-align: center;
+}
+#main-heading{
+    margin: 50px 0px;
+}
+.gd-content p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* app development section  */
+.appdevelopment-main-sec {
+    background-image: url('../../assets/Services-images/aap-development-img1.gif');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.appdevelopment-main-sec h1{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 60px;
+}.appdevelopment-main-sec a{
+    position: absolute;
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    top: 220px;
+    left: 100px;
+    text-decoration: none;
+}
+
+/* social media section  */
+.social-media-main-sec {
+    background-image: url('../../assets/Services-images/social-media-img1.gif');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.social-media-main-sec h1{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 60px;
+}
+.social-media-main-sec a{
+    position: absolute;
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    top: 220px;
+    left: 100px;
+    text-decoration: none;
+}
+
+/* E-commerce Services  */
+.e-commercewebsite-main-sec {
+    background-image: url('../../assets/Services-images/e-commerce-img1.gif');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.e-commercewebsite-main-sec h1{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 60px;
+    font-weight: bold;
+}
+.e-commercewebsite-main-sec a{
+    position: absolute;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    top: 200px;
+    left: 100px;
+    text-decoration: none;
+}

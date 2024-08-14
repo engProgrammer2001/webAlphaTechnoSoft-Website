@@ -1,0 +1,101 @@
+
+
+.Maincontact-sec{
+    background-image: url('../../assets/blog-image/blog-img1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.Maincontact-sec h2{
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    font-size: 41px;
+    color: #3b3663;
+    font-weight: 600;
+}
+.Maincontact-sec a{
+    position: absolute;
+    top: 249px;
+    left: 195px;
+    text-decoration: none;
+    color: orange;
+    font-weight: 500;
+}
+.address-col{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hover{
+    margin: 10px 0px;
+    padding: 10px 10px ;
+}
+.hover:hover{
+    transform: scale(1.04);
+    transition: 1.3s;
+}
+
+.connect-data h5{
+    color: #3b3663;
+    font-weight: 600;
+    font-size: 25px;
+}
+.connect-data p{
+    font-size: 18px;
+}
+.subhead{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+.subhead h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    word-spacing: 9px;
+    font-weight: 600;
+    color: #3b3663;
+    text-align: center;
+    padding: 33px 0px;
+    
+}
+.form-group label{
+    font-weight: bold;
+    color: #3b3663;
+}
+
+/* .row span{
+    color:red;
+} */
+.star{
+    color: red;
+}
+input{
+    border:0;
+    outline:none;
+}
+.maps h1{
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+/* contact details  */
+.contactDetails svg{
+    font-size: 40px;
+    color: orange;
+}
+.contactDetails p{
+    font-size: 18px;
+    color: #3b3663;
+    font-weight: 400;
+}
+.contactDetails:hover{
+    transform: scale(1.03);
+    transition: 1.3s;
+}
+
+@media only screen and (max-width:455px) {
+
+    
+}

@@ -1,0 +1,9 @@
+
+* circular progress bar - rc-progress bar simply install and use it.
+* type-writer pakege name - react-simpel-typewriter simply install and use it.
+* For the Number count install react-Counttup and use
+* For the Scroll Trigger install react-scroll-trigger and use and use it's very simpel 
+    video link => https://www.youtube.com/watch?v=NWyWoW61B3I
+
+
+    
