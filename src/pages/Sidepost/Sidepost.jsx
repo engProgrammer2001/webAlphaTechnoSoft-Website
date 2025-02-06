@@ -20,49 +20,48 @@ const Sidepost = () => {
         <div className="post">
           <img src={img2} alt="" />
           <a href="#">
-          10 Digital Skills That Can Make Students Instantly Employable in 2024
+            10 Digital Skills That Can Make Students Instantly Employable in
+            2024
           </a>
         </div>
         <div className="post">
           <img src={img1} alt="" />
-          <a href="#">
-          How to Use Short-Form Video in Digital Marketing
-          </a>
+          <a href="#">How to Use Short-Form Video in Digital Marketing</a>
         </div>
         <div className="post">
           <img src={img3} alt="" />
           <a href="#">
-          Technologent Recognized on the 2024 CRN Tech Elite 250 List
+            Technologent Recognized on the 2024 CRN Tech Elite 250 List
           </a>
         </div>
         <div className="post">
           <img src={img4} alt="" />
-          <a href="#">
-          How Hybrid IT Enables AI
-          </a>
+          <a href="#">How Hybrid IT Enables AI</a>
         </div>
         <div className="post">
           <img src={img5} alt="" />
           <a href="#">
-          Why Immutable Storage Is Indispensable in Today’s IT Environment
+            Why Immutable Storage Is Indispensable in Today’s IT Environment
           </a>
         </div>
-        
-        <div className="Follow-us">
-        <hr/>
-          <h4>Follow us</h4>
-          <a href="#" id="Insta">
-            <FaInstagramSquare />
-          </a>
-          <a href="#" id="Facebook">
-            <FaFacebook />
-          </a>
-          <a href="#" id="twitter">
-            <FaTwitter />
-          </a>
-          <a href="#" id="Linkedin">
-            <FaLinkedin />
-          </a>
+
+        <div className="Follow-us flex flex-col items-center mt-16 text-center pb-8">
+          <hr className="w-full mb-4" />
+          <h4 className="font-semibold text-[#3b3663] mb-4">Follow us</h4>
+          <div className="flex space-x-4 text-3xl">
+            <a href="#" id="Insta" className="hover:text-gray-700">
+              <FaInstagramSquare />
+            </a>
+            <a href="#" id="Facebook" className="hover:text-gray-700">
+              <FaFacebook />
+            </a>
+            <a href="#" id="twitter" className="hover:text-gray-700">
+              <FaTwitter />
+            </a>
+            <a href="#" id="Linkedin" className="hover:text-gray-700">
+              <FaLinkedin />
+            </a>
+          </div>
         </div>
       </div>
     </>

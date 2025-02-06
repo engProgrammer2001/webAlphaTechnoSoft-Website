@@ -12,18 +12,18 @@ import img9 from "../../assets/images/left-side-image.png";
 import "./Home.css";
 import { FcRight } from "react-icons/fc";
 import questionData from "../Data/questionData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import BrandImageData from "../Data/BrandImageData";
 import { FcCellPhone } from "react-icons/fc";
 import { Circle } from "rc-progress";
 import { Typewriter } from "react-simple-typewriter";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
   let [showAns, setShowAns] = useState(questionData[0].id);
   const [Conunter, setCounter] = useState(false);
-
 
 
   return (

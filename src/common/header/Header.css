@@ -1,0 +1,70 @@
+.navbar .dropdown-menu {
+  display: none;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/* Optional: add styling for dropdown menus for better visibility */
+.navbar .dropdown-menu {
+  background-color: #FAF9F6; /* Match with the background color of the nav */
+  border-radius: 4px;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: #333; /* Adjust text color as needed */
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #e9ecef; /* Highlight color on hover */
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Align icons to the right */
+}
+
+.social-icons a {
+  color: #333; /* Default color for icons */
+  margin: 0 10px; /* Spacing between icons */
+  font-size: 1.5rem; /* Size of icons */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
+  background-color: #e6e4e3;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Change color on hover */
+  transform: translateY(-5px); /* Move icons up by 5px on hover */
+}
+
+/* Ensure dropdown menu items are styled */
+.navbar-nav .navDropdownItem {
+  color: #f47a14; /* Set the default color to blue */
+}
+
+/* Ensure the dropdown item color changes on hover */
+.navbar-nav .navDropdownItem:hover {
+  color: #f47a14; /* Set the hover color to a darker blue */
+}
+
+/* Optional: Style the dropdown menu background */
+.navbar-nav .dropdown-menu {
+  background-color: #f8f9fa; /* Background color of the dropdown menu */
+  width: 400px;
+}
+
+/* Optional: Style the dropdown menu item */
+.navbar-nav .dropdown-item {
+  color: #f47a14; /* Default color */
+}
+
+/* Optional: Style the dropdown menu item on hover */
+.navbar-nav .dropdown-item:hover {
+  background-color: #e9ecef; /* Background color on hover */
+  color: #f47a14; /* Color on hover */
+}

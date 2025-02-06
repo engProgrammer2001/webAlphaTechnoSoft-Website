@@ -49,12 +49,12 @@ section.header-bg-parent {
 }
 .header-col2 {
   float: right;
-  background-image: url(../../assets/images/header-bg.jpg);
+  background-image: url(../../assets/images/digital-marketing.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 75%;
+  width: 65%;
 }
 .header-col1 h5 {
   color: #3b3663;
@@ -311,7 +311,7 @@ section#why-choose-us {
   width: 50%;
   margin-top: 50px;
 }
-.expand-img-col:hover{
+.expand-img-col:hover {
   transform: scale(1.05);
   transition: 1.1s;
 }
@@ -320,7 +320,7 @@ section#why-choose-us {
 }
 .progressbar span {
   position: absolute;
-  top: 60px;
+  top: 35px;
   left: 30px;
   font-weight: 600;
   font-size: 22px;
@@ -645,7 +645,7 @@ div#faq-accordion {
   }
   .faq-que-col {
     margin-left: 0px;
-}
+  }
   .faq-img-par img {
     width: 100%;
   }
@@ -710,5 +710,5 @@ div#faq-accordion {
   }
   .common-h2 {
     font-size: 30px;
-}
+  }
 }

@@ -1,84 +1,67 @@
-
-.FooterBody{
-    background-color:#3b3663;
+.FooterBody {
+    background-color: #3b3663;
     color: white;
     margin-top: 60px;
     padding: 30px 8px;
 }
-.FooterBody h5{
+
+.FooterBody h5 {
     font-weight: bold;
     font-size: 22px;
     text-decoration: underline;
 }
-.LogoColum img{
+
+.LogoColum img {
     margin-bottom: 20px;
-    /* text-align: center; */
-    /* margin-top: 40px; */
-    padding: 48px 25px;
+    padding: 20px; /* Adjusted padding */
     cursor: pointer;
     border: 1px solid #cccc;
     border-radius: 2px;
 }
-.LogoColum h6{
+
+.LogoColum h6 {
     font-size: 17px;
     font-weight: 600;
 }
-.LogoColum p{
+
+.LogoColum p {
     font-size: 18px;
 }
-.LogoColum p svg{
+
+.LogoColum p svg {
     color: orange;
     font-size: 22px;
 }
 
-.CompanyColum a{
+.CompanyColum a, .serviceColum a, .BlogColum a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     line-height: 38px;
 }
-.serviceColum a{
-    text-decoration: none;
-    color: white;
-    line-height: 38px;
-    font-size: 18px;
-}
-.BlogColum a{
-    text-decoration: none;
-    line-height: 38px;
-    font-size: 18px;
-    color: white;
-    
-}
-.FollowColum a{
-    padding:8px 8px;
-    font-size: 25px;
 
+.FollowColum a {
+    padding: 8px;
+    font-size: 25px;
 }
-#Insta{
+
+#Insta, #Facebook, #twitter, #Linkedin {
     color: orange;
 }
-#Facebook{
-    color: orange;
-}
-#twitter{
-    color: orange;
-}
-#Linkedin{
-    color: orange;
-}
-.searchColum input{
+
+.searchColum input {
     outline: none;
-    width: 50%;
-    padding: 5px 5px;
+    width: calc(100% - 80px); /* Adjusted width to fit well with the button */
+    padding: 5px;
     margin-right: 10px;
 }
-.searchColum button{
+
+.searchColum button {
     padding: 6px 8px;
-    margin-right: 22px;
     border: none;
 }
-.searchColum button a{
+
+.searchColum button a {
     outline: none;
     text-decoration: none;
     border: none;
@@ -86,37 +69,46 @@
     font-size: 15px;
     font-weight: 500;
 }
-.copyurightColum p{
+
+.copyurightColum p {
     font-size: 15px;
 }
-.copyurightColum p a{
+
+.copyurightColum p a {
     text-decoration: none;
     color: orange;
     font-weight: 600;
 }
-.LogoColum img {
-    margin-bottom: 39px;
-    padding: 48px 25px;
-}
-
 
 @media only screen and (max-width: 455px) {
-    .MobileCenter{
+    .MobileCenter {
         text-align: center;
     }
-    .CompanyColum{
-        padding-top: 24px;
+
+    .FooterBody {
+        padding: 15px 5px; /* Adjusted padding */
     }
-    .serviceColum{
-        padding-top: 24px;
+
+    .LogoColum, .CompanyColum, .serviceColum, .BlogColum, .FollowColum, .searchColum {
+        padding-top: 15px; /* Adjusted padding */
+        width: 100%;
+        margin: 0; /* Remove extra margins */
     }
-    .BlogColum{
-        padding-top: 24px;
+
+    .searchColum input {
+        width: calc(100% - 80px); /* Adjusted width to fit well with the button */
     }
-    .searchColum{
-        padding-top: 24px;
+
+    .searchColum button {
+        width: 100%; /* Full width for button on mobile */
     }
-    .FollowColum{
-        padding-top: 24px;
+
+    .copyurightColum {
+        text-align: center;
+    }
+
+    .copyurightColum img {
+        width: 100%;
+        margin: 0; /* Remove extra margins */
     }
 }
