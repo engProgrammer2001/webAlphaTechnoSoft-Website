@@ -2,12 +2,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const getUserRole = () => {
-  // Replace this with actual logic to get user role from authentication state or storage
-  return localStorage.getItem("role"); // Example: "admin" or "user"
+  return localStorage.getItem("role"); 
 };
 
 const initialAuthState = {
-  isLoggedIn: !!localStorage.getItem("token"), // Cleaner way to check for truthiness
+  isLoggedIn: !!localStorage.getItem("token"), 
   id: localStorage.getItem("id") || "",
   role: localStorage.getItem("role") || "user",
   fullName: localStorage.getItem("fullName") || "",
@@ -22,7 +21,6 @@ const authSlice = createSlice({
       state.id = localStorage.getItem("id") || "";
       state.role = localStorage.getItem("role") || "user";
       state.fullName = localStorage.getItem("fullName") || "";
-      // If you have more login-specific state updates, add them here
     },
     logout: (state) => {
       state.isLoggedIn = false;
@@ -39,12 +37,12 @@ const authSlice = createSlice({
     changeRole: (state, action) => {
       const role = action.payload;
       state.role = role;
-      localStorage.setItem("role", role); // Ensure localStorage is updated
+      localStorage.setItem("role", role);
     },
     setFullName: (state, action) => {
       const fullName = action.payload;
       state.fullName = fullName;
-      localStorage.setItem("fullName", fullName); // Ensure localStorage is updated
+      localStorage.setItem("fullName", fullName); 
     },
   },
 });
